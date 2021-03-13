@@ -19,5 +19,5 @@ def translate_from_english_to_spanish(possible_words, input):
                 translated_phrase = translated_phrase + str(translated_word) + str(" ")
     return translated_phrase
 
-user_phrase = input("Please enter a phrase of 3 words, one pronoun, one verb and one adjective: ")
+user_phrase = input("Please write a phrase of 3 words, one pronoun, one verb and one adjective: ")
 print(translate_from_english_to_spanish(possible_words, user_phrase))
